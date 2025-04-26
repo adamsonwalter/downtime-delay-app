@@ -58,7 +58,7 @@ with col1:
     """)
 
 with col2:
-    st.image("https://images.unsplash.com/photo-1581091870622-1b71e5d76a91", use_container_width=True)
+    st.image("https://images.unsplash.com/photo-1581091870622-1b71e5d76a91", use_column_width=True)
 
 st.markdown("---")
 
@@ -84,11 +84,9 @@ st.download_button(
     mime='text/csv'
 )
 
-# Footer Branding - softer, modest
+# Footer Branding
 st.markdown("""
 ---
-<p style='font-size:14px; color:gray; text-align:center;'>
-Developed by BayesGen | Strategic Risk & Optimization AI 🚀<br>
-Walter Adamson is an AI Strategic Analysis and Workflow Specialist helping mid-market industrial companies globally translate complex systems into clear, actionable strategies through visual, generative models.
-</p>
-""", unsafe_allow_html=True)
+#### Developed by **BayesGen | Strategic Risk & Optimization AI** 🚀  
+##### Walter Adamson is an AI Strategic Analysis and Workflow Specialist helping mid-market industrial companies globally translate complex systems into clear, actionable strategies through visual, generative models.
+""")
