@@ -58,7 +58,7 @@ with col1:
     """)
 
 with col2:
-    st.image("https://images.unsplash.com/photo-1581091870622-1b71e5d76a91", use_container_width=True)
+    st.empty()  # Removed broken image link
 
 st.markdown("---")
 
